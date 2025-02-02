@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+.logoImg {
+    padding-right: 15rem;
+}
+.navigation div {
+    flex: 1;
+}
+
+.navigation .list{
+    flex: 1.5;
+}
+
+.navigation .list ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navigation .icons {
+    text-align: right;
+}
+
+.mediaIcons{
+    margin: 1rem;
+}
+
+.heroA{
+    flex: 1;
+    background-color: #E7FAFE;
+    border-radius: 50px 0 0 50px;
+}
+section{
+    display: flex;
+    
+    height: 100vh;
+    /* width: 50%; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+ .heroA,
+ .heroB{
+max-width: 48%;
+max-height: 100%;
+}
+.btn{
+    display: flex;
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 156px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.btnTxt{
+    font-size: 14px;
+    margin-top: 14px;
+    color: #000000;
+}
+
+.btnImg{
+    flex: 0.7;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.HomeText{
+    font-size:64px;
+    margin-left: 40px;
+    margin-top: 45px;
+    line-height: 77px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    }
+
+.b{
+    font-size: 16px;
+    color: #535353;
+    line-height: 28px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    margin: 30px 0px 0px 40px;
+    gap: 20px;
+}
+
+.user {
+    margin-top: 80px;
+    gap: 130px;
+}
+
+.BadgeImg{
+    position: absolute;
+    top: 32%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    height: auto;
+}
+.heroB {
+    flex: 1;
+    
+}
+
+.heroB img {
+    width: 100%;
+    height: 100%;
+}
+.categories {
+    flex: 1;
+margin-bottom: 5rem;
+}
+.categories {
+width: 98%;
+height: 100%;
+}
+.recipes {
+    flex: 1;
+    margin-bottom: 5rem;
+}
+.recipes {
+    width: 98%;
+    }
+.learnmore {
+    flex: 1;
+    margin-bottom: 6rem;
+}
+.learnmore {
+    width: 98%;
+}
+.insta {
+    flex: 1;
+    margin-bottom: 5rem;
+}
+.insta {
+    width: 98%;
+}
+.morerecipes {
+    flex: 1;
+    margin-bottom: 5rem;
+}
+.morerecipes {
+    width: 98%;
+}
+.subcard {
+ flex: 1;
+ margin-bottom: 5rem;
+}
+.subcard {
+    width: 98%;
+}
+.footer {
+    flex: 1;
+}
+.footer {
+    width: 98%;
+}
+.header {
+    flex: 1;
+    margin-top: 2rem;
+}
+.header {
+    width: 98%;
+    height: 180px;
+}
+.chef {
+    flex: 1;
+    margin-top: 2rem;
+}
+.chef {
+    width: 99%;
+}
+.blogcontent {
+    flex: 1;
+    margin-top: 2rem;
+}
+.blogcontent {
+    width: 80%;
+}
+.share {
+    margin-top: 2rem;
+    padding-right: 10%;
+}
+.subbcard {
+    flex: 1;
+    margin-top: 30rem;
+}
+.subbcard {
+    width: 98%;
+}
+.recom {
+    margin-top: 5rem;
+    width: 98%;
+}
+.foot {
+    margin-top: 5rem;
+    width: 98%;
+}
+.contact {
+    width: 98%;
+    margin-top: 3rem;
+}
+.subcardd {
+    width: 98%;
+    margin-top: 3rem;
+}
+.recomm {
+    width: 98%;
+    margin-top: 3rem;
+}
+.footer {
+    margin-top: 3rem;
+}
